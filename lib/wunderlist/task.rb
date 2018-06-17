@@ -43,7 +43,7 @@ module Wunderlist
     end
 
     def new_task_comment(attrs = {})
-      attrs.stringify_keys
+      attrs.stringify_keys!
       t_c = Wunderlist::TaskComment.new(attrs)
       t_c.api = self.api
       t_c.task_id = self.id
@@ -83,7 +83,7 @@ module Wunderlist
     end
 
     def new_subtask(attrs = {})
-      attrs.stringify_keys
+      attrs.stringify_keys!
       s_t = Wunderlist::Subtask.new(attrs)
       s_t.api = self.api
       s_t.task_id = self.id

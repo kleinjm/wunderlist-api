@@ -55,12 +55,3 @@ module Wunderlist
     end
   end
 end
-
-class Hash
-
-  def stringify_keys
-    self.replace(self.inject({}){|a,(k,v)| a[k.to_s] = v; a})
-  end
-
-end
-
