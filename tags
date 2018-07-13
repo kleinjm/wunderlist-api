@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+API	lib/wunderlist/api.rb	/^  class API$/;"	c	class:Wunderlist
+Helper	lib/wunderlist/helper.rb	/^  module Helper$/;"	m	class:Wunderlist
+List	lib/wunderlist/list.rb	/^  class List$/;"	c	class:Wunderlist
+Note	lib/wunderlist/note.rb	/^  class Note$/;"	c	class:Wunderlist
+Reminder	lib/wunderlist/reminder.rb	/^  class Reminder$/;"	c	class:Wunderlist
+Subtask	lib/wunderlist/subtask.rb	/^  class Subtask$/;"	c	class:Wunderlist
+Task	lib/wunderlist/task.rb	/^  class Task$/;"	c	class:Wunderlist
+TaskComment	lib/wunderlist/task_comment.rb	/^  class TaskComment$/;"	c	class:Wunderlist
+User	lib/wunderlist/user.rb	/^  class User$/;"	c	class:Wunderlist
+Webhook	lib/wunderlist/webhook.rb	/^  class Webhook$/;"	c	class:Wunderlist
+Wunderlist	lib/wunderlist.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/api.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/helper.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/list.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/note.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/reminder.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/subtask.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/task.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/task_comment.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/user.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/version.rb	/^module Wunderlist$/;"	m
+Wunderlist	lib/wunderlist/webhook.rb	/^module Wunderlist$/;"	m
+conn	lib/wunderlist/api.rb	/^    def conn$/;"	f	class:Wunderlist.API
+create	lib/wunderlist/helper.rb	/^    def create$/;"	f	class:Wunderlist.Helper
+date=	lib/wunderlist/reminder.rb	/^    def date=(value)$/;"	f	class:Wunderlist.Reminder
+delete	lib/wunderlist/api.rb	/^    def delete(url, options = {})$/;"	f	class:Wunderlist.API
+destroy	lib/wunderlist/helper.rb	/^    def destroy$/;"	f	class:Wunderlist.Helper
+destroy	lib/wunderlist/webhook.rb	/^    def destroy$/;"	f	class:Wunderlist.Webhook
+get	lib/wunderlist/api.rb	/^    def get(url, options = {})$/;"	f	class:Wunderlist.API
+get_list_ids	lib/wunderlist/api.rb	/^    def get_list_ids(list_names = [])$/;"	f	class:Wunderlist.API
+initialize	lib/wunderlist/api.rb	/^    def initialize(options = {})$/;"	f	class:Wunderlist.API
+initialize	lib/wunderlist/list.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.List
+initialize	lib/wunderlist/note.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.Note
+initialize	lib/wunderlist/reminder.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.Reminder
+initialize	lib/wunderlist/subtask.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.Subtask
+initialize	lib/wunderlist/task.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.Task
+initialize	lib/wunderlist/task_comment.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.TaskComment
+initialize	lib/wunderlist/user.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.User
+initialize	lib/wunderlist/webhook.rb	/^    def initialize(attrs = {})$/;"	f	class:Wunderlist.Webhook
+list	lib/wunderlist/api.rb	/^    def list(list_name_or_id)$/;"	f	class:Wunderlist.API
+lists	lib/wunderlist/api.rb	/^    def lists$/;"	f	class:Wunderlist.API
+model_name	lib/wunderlist/helper.rb	/^    def model_name$/;"	f	class:Wunderlist.Helper
+new_list	lib/wunderlist/api.rb	/^    def new_list(list_name)$/;"	f	class:Wunderlist.API
+new_subtask	lib/wunderlist/task.rb	/^    def new_subtask(attrs = {})$/;"	f	class:Wunderlist.Task
+new_task	lib/wunderlist/api.rb	/^    def new_task(list_name, attrs = {})$/;"	f	class:Wunderlist.API
+new_task	lib/wunderlist/list.rb	/^    def new_task(attrs = {})$/;"	f	class:Wunderlist.List
+new_task_comment	lib/wunderlist/task.rb	/^    def new_task_comment(attrs = {})$/;"	f	class:Wunderlist.Task
+new_webhook	lib/wunderlist/api.rb	/^    def new_webhook(list_name_or_id, attrs = {})$/;"	f	class:Wunderlist.API
+note	lib/wunderlist/task.rb	/^    def note$/;"	f	class:Wunderlist.Task
+path	lib/wunderlist/helper.rb	/^    def path$/;"	f	class:Wunderlist.Helper
+plural_model_name	lib/wunderlist/helper.rb	/^    def plural_model_name$/;"	f	class:Wunderlist.Helper
+post	lib/wunderlist/api.rb	/^    def post(url, options = {})$/;"	f	class:Wunderlist.API
+put	lib/wunderlist/api.rb	/^    def put(url, options = {})$/;"	f	class:Wunderlist.API
+reminder	lib/wunderlist/task.rb	/^    def reminder$/;"	f	class:Wunderlist.Task
+request	lib/wunderlist/api.rb	/^    def request(method, url, options = {})$/;"	f	class:Wunderlist.API
+resource_path	lib/wunderlist/helper.rb	/^    def resource_path$/;"	f	class:Wunderlist.Helper
+save	lib/wunderlist/helper.rb	/^    def save$/;"	f	class:Wunderlist.Helper
+set_attrs	lib/wunderlist/list.rb	/^    def set_attrs(attrs = {})$/;"	f	class:Wunderlist.List
+set_attrs	lib/wunderlist/note.rb	/^    def set_attrs(attrs = {})$/;"	f	class:Wunderlist.Note
+set_attrs	lib/wunderlist/reminder.rb	/^    def set_attrs(attrs = {})$/;"	f	class:Wunderlist.Reminder
+set_attrs	lib/wunderlist/subtask.rb	/^    def set_attrs(attrs = {})$/;"	f	class:Wunderlist.Subtask
+set_attrs	lib/wunderlist/task.rb	/^    def set_attrs(attrs = {})$/;"	f	class:Wunderlist.Task
+set_attrs	lib/wunderlist/task_comment.rb	/^    def set_attrs(attrs = {})$/;"	f	class:Wunderlist.TaskComment
+subtasks	lib/wunderlist/task.rb	/^    def subtasks$/;"	f	class:Wunderlist.Task
+task_comments	lib/wunderlist/task.rb	/^    def task_comments$/;"	f	class:Wunderlist.Task
+tasks	lib/wunderlist/api.rb	/^    def tasks(list_names_or_ids = [], completed = false)$/;"	f	class:Wunderlist.API
+tasks	lib/wunderlist/list.rb	/^    def tasks(completed: false)$/;"	f	class:Wunderlist.List
+to_hash	lib/wunderlist/helper.rb	/^    def to_hash$/;"	f	class:Wunderlist.Helper
+update	lib/wunderlist/helper.rb	/^    def update$/;"	f	class:Wunderlist.Helper
+user	lib/wunderlist/api.rb	/^    def user()$/;"	f	class:Wunderlist.API
+webhooks	lib/wunderlist/api.rb	/^    def webhooks(list_name_or_id)$/;"	f	class:Wunderlist.API
+webhooks	lib/wunderlist/list.rb	/^    def webhooks$/;"	f	class:Wunderlist.List

@@ -16,6 +16,7 @@ module Wunderlist
     end
 
     def new_task(attrs = {})
+      require "pry"; binding.pry
       self.api.new_task(self.title, attrs)
     end
 

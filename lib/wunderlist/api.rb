@@ -97,6 +97,7 @@ module Wunderlist
     end
 
     def new_task(list_name, attrs = {})
+      require "pry"; binding.pry
       attrs.stringify_keys!
       list_name = [list_name]
       list_id = get_list_ids(list_name)[0]
@@ -109,6 +110,7 @@ module Wunderlist
     end
 
     def new_webhook(list_name_or_id, attrs = {})
+      require "pry"; binding.pry
       list_id = get_list_ids(list_name_or_id).first
       attrs.stringify_keys!
       attrs['list_id'] = list_id
