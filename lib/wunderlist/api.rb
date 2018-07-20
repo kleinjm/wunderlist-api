@@ -5,6 +5,7 @@ require "wunderlist/webhook"
 require "wunderlist/version"
 require 'faraday'
 require 'json'
+require "active_support/core_ext/hash/keys"
 
 module Wunderlist
   class API
@@ -97,7 +98,6 @@ module Wunderlist
     end
 
     def new_task(list_name, attrs = {})
-      require "pry"; binding.pry
       attrs.stringify_keys!
       list_name = [list_name]
       list_id = get_list_ids(list_name)[0]
